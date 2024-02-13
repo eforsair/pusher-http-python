@@ -33,7 +33,8 @@ setup(
     license='MIT',
 
     packages=[
-        'pusher'
+        'pusher',
+        'pusher.backends'
     ],
 
     install_requires=[
