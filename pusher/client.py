@@ -31,7 +31,7 @@ class Client(object):
             **backend_options):
 
         if backend is None:
-              from .requests import RequestsBackend
+              from pusher.backends.requests import RequestsBackend
               backend = RequestsBackend
 
         self._app_id = ensure_text(app_id, "app_id")
